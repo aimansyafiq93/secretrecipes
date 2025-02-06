@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Recipe|Order Now</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Lucida Handwriting, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: url('image33.jpg') center/cover no-repeat;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav {
+            background-color: #e60000;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #cc0000;
+            transform: scale(1.1);
+        }
+
+        .order-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .order-section h1 {
+            color: #cc0000;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .order-section p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .icons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .icons a {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+
+        .icons img {
+            width: 200px;
+            height: 150px;
+            object-fit: fixed;
+            border-radius: 10px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .icons a:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        footer a {
+            color: #cc0000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Secret Recipe</h1>
+    </header>
+
+    <nav>
+        <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; gap: 1rem;">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="promotion.html">Promotion</a></li>
+            <li><a href="ordernow.html">Order Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="order-section">
+        <h1>Order Now!!</h1>
+        <p>"Click icon to order"</p>
+        <div class="icons">
+            <a href="https://srgo.com" target="_blank">
+                <img src="image32.png" alt="SR Go Logo">
+            </a>
+            <a href="https://www.grab.com/food" target="_blank">
+                <img src="image31.jpg" alt="GrabFood Logo">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Secret Recipe. All rights reserved. | <a href= "home.html"> Back to Home</a></p>
+    </footer>
+</body>
+</html>
+
+
